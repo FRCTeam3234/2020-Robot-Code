@@ -1,0 +1,35 @@
+See file:///C:/Users/Eddie/Documents/Robotics/2020Robot/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling ModularAuto.cpp successful.
+C:\Users\Eddie\Documents\Robotics\2020Robot\src\main\cpp\ModularAuto.cpp: In constructor 'ModularAuto::ModularAuto()':
+C:\Users\Eddie\Documents\Robotics\2020Robot\src\main\cpp\ModularAuto.cpp:6:9: warning: unused variable 'm_phaseNum' [-Wunused-variable]
+     int m_phaseNum = 0;
+         ^~~~~~~~~~
+C:\Users\Eddie\Documents\Robotics\2020Robot\src\main\cpp\ModularAuto.cpp:7:10: warning: unused variable 'm_phasedone' [-Wunused-variable]
+     bool m_phasedone = false;
+          ^~~~~~~~~~~
+C:\Users\Eddie\Documents\Robotics\2020Robot\src\main\cpp\ModularAuto.cpp:8:9: warning: unused variable 'm_phaseprog' [-Wunused-variable]
+     int m_phaseprog = 0;
+         ^~~~~~~~~~~
+
+compiling Motion.cpp successful.
+C:\Users\Eddie\Documents\Robotics\2020Robot\src\main\cpp\Motion.cpp: In member function 'float Motion::Curve(float, float, float, float, float, float, float, float, float, float, float, float, float, float)':
+C:\Users\Eddie\Documents\Robotics\2020Robot\src\main\cpp\Motion.cpp:153:15: warning: unused variable 't3' [-Wunused-variable]
+         float t3=t*t2;
+               ^~
+C:\Users\Eddie\Documents\Robotics\2020Robot\src\main\cpp\Motion.cpp:121:11: warning: unused variable 'cgangl' [-Wunused-variable]
+     float cgangl=gangl-m_sgangl;
+           ^~~~~~
+C:\Users\Eddie\Documents\Robotics\2020Robot\src\main\cpp\Motion.cpp:147:30: warning: 'fp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     wpi::errs() << "fp: " << fp;
+                              ^~
+
+compiling Robot.cpp successful.
+In file included from C:\Users\Eddie\.gradle\caches\transforms-2\files-2.1\1c5c7766e41bbe37c27bfd1a913a5075\SparkMax-cpp-1.5.4-headers/rev/CANSparkMax.h:37:0,
+                 from C:\Users\Eddie\Documents\Robotics\2020Robot\src\main\include/Robot.h:15,
+                 from C:\Users\Eddie\Documents\Robotics\2020Robot\src\main\cpp\Robot.cpp:8:
+C:\Users\Eddie\.gradle\caches\transforms-2\files-2.1\1c5c7766e41bbe37c27bfd1a913a5075\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: warning: attribute ignored in declaration of 'enum class rev::CANDigitalInput::LimitSwitch' [-Wattributes]
+     enum class LimitSwitch { kForward, kReverse };
+                ^~~~~~~~~~~
+C:\Users\Eddie\.gradle\caches\transforms-2\files-2.1\1c5c7766e41bbe37c27bfd1a913a5075\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: note: attribute for 'enum class rev::CANDigitalInput::LimitSwitch' must follow the 'enum class' keyword
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///C:/Users/Eddie/Documents/Robotics/2020Robot/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
